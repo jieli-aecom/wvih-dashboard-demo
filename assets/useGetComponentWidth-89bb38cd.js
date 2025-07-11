@@ -1,0 +1,1 @@
+import{r}from"./index-c785dd4a.js";function o(){const e=r.useRef(null),[n,s]=r.useState(0);return r.useEffect(()=>{const t=()=>{e.current&&s(e.current.offsetWidth)};return window.addEventListener("resize",t),t(),()=>{window.removeEventListener("resize",t)}},[e]),{ref:e,width:n}}export{o as u};
